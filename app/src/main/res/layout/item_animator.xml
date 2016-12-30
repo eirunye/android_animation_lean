@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+        android:id="@+id/item1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/circle1"
+        style="@style/MenuItemStyle"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/item2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/circle2"
+        style="@style/MenuItemStyle"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/item3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/circle3"
+        style="@style/MenuItemStyle"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/item4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/circle4"
+        style="@style/MenuItemStyle"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/item5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@mipmap/circle5"
+        style="@style/MenuItemStyle"
+        android:visibility="gone"
+        />
+
+</FrameLayout>
